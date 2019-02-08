@@ -1,0 +1,584 @@
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+*USE ALT TEXT FOR IMAGES AS SEARCH ENGINES USES THEM WHILE CRAWLING
+*RELATIVE PATH - SKIP THE FULL URL AND GIVE WHAT IS NEEDED (<a href="./contact.html">Contact</a>)
+*ABSOLUTE PATH - GIVE FULL URL- (https://www.codecademy.com/learn/learn-html) -we use this if the file is in idfferent folder
+./ ->tells the browser to look for the file in the current folder.
+../->look one folr up
+**HTML is written in multiple pages..
+**USE INDENTATION FOR CHILD elments or else code will look bad. 2 spaces of indentation when writing HTML code
+**Table Headings (include scope as col or row for easy readability & scope=”rowgroup”)
+**table use table ,thead,tdata,tfooter,td,th, and stle with css
+
+HTML-
+https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/html+lesson+image.svg
+
+A tag and the content between it is called an HTML element
+--------
+Only content inside the opening and closing body tags can be displayed to the screen. Here's what opening and closing body tags look like:
+
+<body>
+
+</body>
+------
+add spaces to child elments for redability -child elments have spaces.
+<body>
+  <div>
+    <h1>Sibling to p, but also grandchild of body</h1>
+    <p>Sibling to h1, but also grandchild of body</p>
+  </div>
+</body>
+-------------------
+Headings
+<h1> — used for main headings. All other smaller headings are used for subheadings.
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+--------------
+Divs-
+One of the most popular elements in HTML is the <div> element. <div> is short for "division" or a container that divides the page into sections. These sections are very useful for grouping elements in your HTML together.
+
+<body>
+  <div>
+    <h1>Why use divs?</h1>
+    <p>Great for grouping elements!</p>
+  </div>
+</body>
+<div>s can contain any text or other HTML elements, such as links, images, or videos. Remember to always add two spaces of indentation when you nest elements inside of <div>s for better readability.
+---------
+attributes-->
+Attributes are made up of the following two parts:
+
+The name of the attribute
+The value of the attribute
+One commonly used attribute is the id. We can use the id attribute to specify different content (such as <div>s) and is really helpful when you use an element more than once. ids have several different purposes in HTML, but for now, we'll focus on how they can help us identify content on our page.
+
+When we add an id to a <div>, we place it in the opening tag:
+
+<div id="intro">
+  <h1>Introduction</h1>
+</div>
+-=-------------
+paragaph -to dhsow any text
+If you want to display text in HTML, you can use a paragraph or span:
+
+Paragraphs (<p>) contain a block of plain text.
+<span> contains short pieces of text or other HTML. They are used to separate small pieces of content that are on the same line as other content.
+-->
+<div>
+  <h1>Technology</h1>
+</div>
+<div>
+  <p><span>Self-driving cars</span> are anticipated to replace up to 2 million jobs over the next two decades.</p>
+</div>
+**In the example above, there are two different <div>. The second <div> contains a <p> with <span>Self-driving cars</span>. This <span> element separates "Self-driving cars" from the rest of the text in the paragraph.
+It's best to use a <span> element when you want to target a specific piece of content that is inline, or on the same line as other text. If you want to divide your content into blocks, it's better to use a <div>.
+---------
+styling text->
+You can also style text using HTML tags. The <em> tag emphasizes text, while the <strong> tag highlights important text.
+
+Later, when you begin to style websites, you will decide how you want browsers to display content within <em> and <strong> tags. Browsers, however, have built-in style sheets that will generally style these tags in the following ways:
+
+The <em> tag will generally render as italic emphasis.
+The <strong> will generally render as bold emphasis.
+
+-->
+<p><strong>The Nile River</strong> is the <em>longest</em> river in the world, measuring over 6,850 kilometers long (approximately 4,260 miles).</p>
+---------
+<br> break line
+---------->
+LISTS
+unordered-list
+In HTML, you can use an unordered list tag (<ul>) to create a list of items in no particular order. An unordered list outlines individual list items with a bullet point.
+
+The <ul> element should not hold raw text and won't automatically format raw text into an unordered list of items. Individual list items must be added to the unordered list using the <li> tag. The <li> or list item tag is used to describe an item in a list.
+
+<ul>
+  <li>Limes</li>
+  <li>Tortillas</li>
+  <li>Chicken</li>
+</ul>
+--------->
+Ordered lists (<ol>) are like unordered lists, except that each list item is numbered. They are useful when you need to list different steps in a process or rank items for first to last.
+
+You can create the ordered list with the <ol> tag and then add individual list items to the list using <li> tags.
+
+<ol>
+  <li>Preheat the oven to 350 degrees.</li>
+  <li>Mix whole wheat flour, baking soda, and salt.</li>
+  <li>Cream the butter, sugar in separate bowl.</li>
+  <li>Add eggs and vanilla extract to bowl.</li>
+</ol>
+----->
+img
+<img src="image-location.jpg" />
+Image Alts-> (good use this.used for SEARCH ENGINE OPTIOMIZATION,IF NO IMAGE LAODS)
+The alt attribute, which means alternative text, brings meaning to the images on our sites. The alt attribute can be added to the image tag just like the src attribute. The value of alt should be a description of the image.
+
+<img src="#" alt="A field of yellow sunflowers" />
+--->
+videos--
+<video src="myVideo.mp4" width="320" height="240" controls>
+  Video not supported
+</video>
+
+Review-->
+INTRODUCTION TO HTML
+Review
+Congratulations on completing the first lesson of HTML! You are well on your way to becoming a skilled web developer.
+
+Let's review what you've learned so far:
+
+HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.
+Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
+HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.
+Any visible content should be placed within the opening and closing <body> tags .
+Headings and sub-headings, <h1> to <h6> tags, are used to enlarge text.
+<p>, <span> and <div> tags specify text or blocks.
+The <em> and <strong> tags are used to emphasize text.
+Line breaks are created with the <br> tag.
+Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.
+Images (<img>) and videos (<video>) can be added by linking to an existing source.
+------------->
+
+
+------------------------------>
+HTML STRUCTURE ->
+111111111
+<!DOCTYPE html>
+This declaration is an instruction, and it must be the first line of code in your HTML document. It tells the browser what type of document to expect, along with what version of HTML is being used in the document. For now, the browser will correctly assume that the html in <!DOCTYPE html> is referring to HTML5, as it is the current standard.
+
+In the future, however, a new standard will override HTML5. To make sure your document is forever interpreted correctly, always include <!DOCTYPE html> at the very beginning of your HTML documents.
+
+Lastly, HTML code is always saved in a file with an .html extension.
+
+->222222222222222222222222
+The <html> tag
+The <!DOCTYPE html> declaration provides the browser with two pieces of information (the type of document and the HTML version to expect), but it doesn't actually add any HTML structure or content.
+<!DOCTYPE html>
+<html>
+
+</html>2
+33333333333
+--->>now add <head> tag
+
+
+-----> 444444444 page title
+A browser's tab displays the title specified in the <title> tag. The <title> tag is always inside of the <head>.
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Coding Journal</title>
+  </head>
+</html>
+------------>
+555555555555555555
+links->
+<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>
+
+-->
+WRAP ANY ELMENT AS LINK
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="#" alt="A red prickly pear fruit"/></a>
+
+------> how to navigate to a particular place on page --> like about us /how it works ?
+first give id as below
+<p id="top">This is the top of the page!</p>
+<h1 id="bottom">This is the bottom! </h1>
+
+then use them-
+<ol>
+  <li><a href="#top">Top</a></li>
+  <li><a href="#bottom">Bottom</a></li>
+</ol>
+------>
+he <!DOCTYPE html> declaration should always be the first line of code in your HTML files. This lets the browser know what version of HTML to expect.
+The <html> element will contain all of your HTML code.
+Information about the web page, like the title, belongs within the <head> of the page.
+You can add a title to your web page by using the <title> element, inside of the head.
+A webpage's title appears in a browser's tab.
+Anchor tags (<a>) are used to link to internal pages, external pages or content on the same page.
+You can create sections on a webpage and jump to them using <a> tags and adding ids to the elements you wish to jump to.
+Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser.
+Indentation also helps make code easier to read. It makes parent-child relationships visible.
+Comments are written in HTML using the following syntax: <!-- comment -->.
+Take some time to edit the workspace you created and observe how it changes!
+
+
+------------->table
+Before displaying data, you must first create the table that will contain the data by using the <table> element.
+
+<table>
+
+</table>
+---->
+The first step in entering data into the table is to add rows using the table row element: <tr>.
+
+<table>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+</table>
+
+-------->
+Rows aren't sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the table data element: <td>.
+
+<table>
+  <tr>
+    <td>73</td>
+    <td>81</td>
+  </tr>
+</table>
+
+------------->
+Table Headings (include scope as col or row for easy readability & scope=”rowgroup”)
+Table data doesn't make much sense without titles to describe what the data represents.
+
+To add titles to rows and columns, you can use the table heading element: <th>.
+
+The table heading element is used just like a table data element, except with a relevant title. Just like table data, a table heading must be placed within a table row.
+
+<table>
+  <tr>
+    <th></th>
+    <th scope="col">Saturday</th>
+    <th scope="col">Sunday</th>
+  </tr>
+  <tr>
+    <th scope="row">Temperature</th>
+    <td>73</td>
+    <td>81</td>
+  </tr>
+</table>
+--------->
+table borders-->
+include via css
+
+table, td {
+  border: 1px solid black;
+}
+---------------->
+spanning columns-->What if the table contains data that spans multiple columns?
+
+Data can span columns using the colspan attribute. The attributes accepts an integer (greater than or equal to 1) to denote the number of columns it spans across.
+
+<table>
+  <tr>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+  </tr>
+  <tr>
+    <td colspan="2">Out of Town</td>
+    <td>Back in Town</td>
+  </tr>
+</table>
+
+--------------------Spanning rows->
+Data can also span multiple rows using the rowspan attribute.
+
+The rowspan attribute is used for data that spans multiple rows (perhaps an event goes on for multiple hours on a certain day). It accepts an integer (greater than or equal to 1) to denote the number of rows it spans across.
+example->
+<table>
+  <tr> <!-- Row 1 -->
+    <th></th>
+    <th>Saturday</th>
+    <th>Sunday</th>
+  </tr>
+  <tr> <!-- Row 2 -->
+    <th>Morning</th>
+    <td rowspan="2">Work</td>
+    <td rowspan="3">Relax</td>
+  </tr>
+  <tr> <!-- Row 3 -->
+    <th>Afternoon</th>
+  </tr>
+  <tr> <!-- Row 4 -->
+    <th>Evening</th>
+    <td>Dinner</td>
+  </tr>
+</table>
+-------->>>>>
+table body-->
+Table Body
+Over time, a table can grow to contain a lot of data and become very long. When this happens, the table can be sectioned off so that it is easier to manage.
+
+Long tables can be sectioned off using the table body element: <tbody>.
+
+The <tbody> element should contain all of the table's data, excluding the table headings (more on this in a later exercise).
+
+-----------
+table head thead-->
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Morning</th>
+      <td rowspan="2">Work</td>
+      <td rowspan="3">Relax</td>
+    </tr>
+    <tr>
+     <th>Afternoon</th>
+    </tr>
+    <tr>
+      <th>Evening</th>
+      <td>Dinner</td>
+    </tr>
+  </tbody>
+</table>
+
+--------Table Footer
+
+The bottom part of a long table can also be sectioned off using the <tfoot> element.
+
+<table>
+  <thead>
+    <tr>
+      <th>Quarter</th>
+      <th>Revenue</th>
+      <th>Costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Q1</th>
+      <td>$10M</td>
+      <td>$7.5M</td>
+    </tr>
+    <tr>
+      <th>Q2</th>
+      <td>$12M</td>
+      <td>$5M</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Total</th>
+      <td>$22M</td>
+      <td>$12.5M</td>
+    </tr>
+  </tfoot>
+</table>
+
+HTML tables-->
+HTML Tables
+Great job! In this lesson, you learned how to create a table, add data to it, and section the table into smaller parts that make it easier to read.
+
+Let's review what you've learned so far:
+
+The <table> element creates a table.
+The <tr> element adds rows to a table.
+To add data to a row, you can use the <td> element.
+Table headings clarify the meaning of data. Headings are added with the <th> element.
+Table data can span columns using the colspan attribute.
+Table data can span rows using the rowspan attribute.
+Tables can be split into three main sections: a head, a body, and a footer.
+A table's head is created with the <thead> element.
+A table's body is created with the <tbody> element.
+A table's footer is created with the <tfoot> element.
+All the CSS properties you learned about in this course can be applied to tables and their data.
+Congratulations on completing HTML Tables!
+
+------------>
+FORMSSSSSSSS-->form
+The <form> element is a great tool for collecting information, but then we need to send that information somewhere else for processing. We need to supply the <form> element with both the location of where the <form>'s information goes and what HTTP request to make. Take a look at the sample <form> below:
+
+<form action="/example.html" method="POST">
+</form>
+In the above example, we've created the skeleton for a <form> that will send information to example.html as a POST request — the action attribute determines where the information is sent and the method attribute is assigned a HTTP verb that is included in the HTTP request. (Note: HTTP verbs like POST do not need to be capitalized for the request to work, but it's done so out of convention. In the example above we could have written method="post" and it would still work)
+
+The <form> element can also contain child elements. For instance, it would be helpful to provide a header so that users know what this <form> is about. We could also add a paragraph to provide even more detail. Let's see an example of this in code:
+
+<form action="/example.html" method="POST">
+  <h1>Creating a form</h1>
+  <p>Looks like you want to learn how to create an HTML form. Well, the best way to learn is to play around with it.</p>
+</form>
+The example above doesn't collect any user input, but we'll do that in the next exercise. For now, let's practice making the foundation of an HTML <form>!
+
+
+
+---------------->
+The <label> element has an opening and closing tag and displays text that is written between the opening and closing tags. To associate a <label> and an <input>, the <input> needs an id attribute. We then assign the for attribute of the <label> element with the value of the id attribute of <input>, like so:
+
+<form action="/example.html" method="POST">
+  <label for="meal">What do you want to eat?</label>
+  <br>
+  <input type="text" name="food" id="meal">
+</form>
+
+----------->
+INPUT --
+ <label for="username">Username:</label>
+  			<input type="text" name="username" id="username">
+
+PASSWORD--
+  <label for="user-pw">Password:</label>
+        <!--Add your code below-->
+        <input type="password" name="user-pw" id="user-pw">
+------
+input numbers-
+  <label for="years"> Years of experience: </label>
+  <input id="years" name="years" type="number" step="1">
+------------
+range input-->
+<form>
+  <label for="volume"> Volume Control</label>
+  <input id="volume" name="volume" type="range" min="0" max="100" step="1">
+</form>
+--->checkbox input
+  <label for="cheese">Extra cheese</label>
+  <input id="cheese" name="topping" type="checkbox" value="cheese">
+  ------->
+  radio button input-> for label you can use ->        <span>Yes or No: </span>
+
+    <input type="radio" id="two" name="answer" value="2">
+  <form>
+  <p>What is sum of 1 + 1?</p>
+  <input type="radio" id="two" name="answer" value="2">
+  <label for="two">2</label>
+  <br>Potato 
+  <input type="radio" id="eleven" name="answer" value="11">
+  <label for="eleven">11</label>
+</form>
+-----------
+drop-down list-->
+<form>
+  <label for="lunch">What's for lunch?</label>
+  <select id="lunch" name="lunch">
+    <option value="pizza">Pizza</option>
+    <option value="curry">Curry</option>
+    <option value="salad">Salad</option>
+    <option value="ramen">Ramen</option>
+    <option value="tacos">Tacos</option>
+  </select>
+</form>
+-----auto complete or datalist
+The <datalist> is used with an <input type="text"> element. The <input> creates a text field that users can type into and filter options from the <datalist>. Let's go over a concrete example:
+
+<form>
+  <label for="city">Ideal city to visit?</label>
+  <input type="text" list="cities" id="city" name="city">
+
+  <datalist id="cities">
+    <option value="New York City"></option>
+    <option value="Tokyo"></option>
+    <option value="Barcelona"></option>
+    <option value="Mexico City"></option>
+    <option value="Melbourne"></option>
+    <option value="Other"></option>  
+  </datalist>
+</form>
+
+**Notice, in the code above, we have an <input> that has a list attribute. The <input> is associated to the <datalist> via the <input>'s list attribute and the id of the <datalist>.
+**While <select> and <datalist> share some similarities, there are some major differences. In the associated <input> element, users can type in the input field to search for a particular option. If none of the <option>s match, the user can still use what they typed in. When the form is submitted, the value of the <input>'s name and the value of the option selected, or what the user typed in, is sent as a pair.
+
+Now it's time to make a <datalist> of our own!
+-------------->
+text area element-->
+An <input> element with type="text" creates a single row input field for users to type in information. However, there are cases where users need to write in more information, like a blog post. In such cases, instead of using an <input>, we could use <textarea>.
+
+The <textarea> element is used to create a bigger text field for users to write more text. We can add the attributes rows and cols to determine the amount of rows and columns for the <textarea>. Take a look:
+
+<form>
+  <label for="blog">New Blog Post: </label>
+  <br>
+  <textarea id="blog" name="blog" rows="5" cols="30">   Enter here
+  </textarea>
+</form>
+------------->SUBMIT FORMSSSSSSSS--
+Remember, the purpose of a form is to collect information that will be submitted. That's the role of the submit button — users click on it when they are finished with filling out information in the <form> and they're ready to send it off. Now that we've gone over how to create various input elements, let's now go over how to create a submit button!
+
+To make a submit button in a <form>, we're going to use the reliable <input> element and set the type to "submit". For instance:
+
+<form>
+  <input type="submit" value="Send">
+</form>
+----->
+forms review-->
+Forms Review
+Nice work interacting with the extremely common and useful <form> element!
+
+In this lesson we went over:
+
+The purpose of a <form> is to allow users to input information and send it.
+The <form>'s action attribute determines where the form's information goes.
+The <form>'s method attribute determines how the information is sent and processed.
+To add fields for users to input information we use the <input> element and set the type attribute to a field of our choosing:
+Setting type to "text" creates a single row field for text input.
+Setting type to "password" creates a single row field that censors text input.
+Setting type to "number" creates a single row field for number input.
+Setting type to "range" creates a slider to select from a range of numbers.
+Setting type to "checkbox" creates a single checkbox which can be paired with other checkboxes.
+Setting type to "radio" creates a radio button that can be paired with other radio buttons.
+Setting type to "list" will pair the <input> with a <datalist> element.
+Setting type to "submit" creates a submit button.
+A <select> element is populated with <option> elements and renders a dropdown list selection.
+A <datalist> element is populated with <option> elements and works with an <input> to search through choices.
+A <textarea> element is a text input field that has a customizable area.
+When a <form> is submitted, the name of the fields that accept input and the value of those fields are sent as name=value pairs.
+Using the <form> element in conjunction with the other elements listed above allows us to create sites that take in consideration the wants and needs of our users. Take the opportunity to take what you've learned and apply it!
+-------->
+HTML FORM VALIDATION-->
+REQUIRED-->Input fields-->
+<form action="/example.html" method="POST">
+  <label for="allergies">Do you have any dietary restrictions?</label>
+  <br>
+  <input id="allergies" name="allergies" type="text" required>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+This renders a text box, and if we try to submit the <form> without filling it out we get this message:
+--------------->
+REQUIRED-->set min and max values to dropdown-->
+Set a Minumum and Maximum
+Another built-in validation we can use is to assign a minimum or maximum value for a number field, e.g. <input type="number"> and <input type="range">. To set a minimum acceptable value, we use the min attribute and assign a value. On the flip side, to set a maximum acceptable value, we assign the max attribute a value. Let's see this in code:
+
+<form action="/example.html" method="POST">
+  <label for="guests">Enter # of guests:</label>
+  <input id="guests" name="guests" type="number" min="1" max="4">
+  <input type="submit" value="Submit">
+</form>
+If a user tries to submit an input that is less than 1 a warning will appear: prompt on a number field for user to input a value greater than or equal to 1
+
+A similar message will appear if a user tries to input a number greater than 4. Let's now see this action.
+
+------->checking text length-->
+To set a minimum number of characters for a text field, we add the minlength attribute and a value to set a minimum value. Similarly, to set the maximum number of characters for a text field, we use the maxlength attribute and set a maximum value. Let's take a look at these attributes in code:
+
+<form action="/example.html" method="POST">
+  <label for="summary">Summarize your fillings in less than 250 characters</label>
+  <input id="summary" name="summary" type="text" minlength="5" maxlength="250" required>
+  <input type="submit" value="Submit">
+</form>
+----regex pattern match------------------>
+<form action="/example.html" method="POST">
+  <label for="payment">Credit Card Number (no spaces):</label>
+  <br>
+  <input id="payment" name="payment" type="text" required pattern="[0-9]{14,16}">
+  <input type="submit" value="Submit">
+</form>
+
+------------>
+Validation Review
+Awesome job adding client-side validation to <form>s!
+
+Let's quickly recap:
+
+Client-side validations happen in the browser before information is sent to a server.
+Adding the required attribute to an input related element will validate that the input field has information in it.
+Assigning a value to the min attribute of a number input element will validate an acceptable minimum value.
+Assigning a value to the max attribute of a number input element will validate an acceptable maximum value.
+Assigning a value to the minlength attribute of a text input element will validate an acceptable minimum number of characters.
+Assigning a value to the maxlength attribute of a text input element will validate an acceptable maximum number of characters.
+Assigning a regex to pattern matches the input to the provided regex.
+If validations on a <form> do not pass, the user gets a message explaining why and the <form> cannot be submitted.
+
