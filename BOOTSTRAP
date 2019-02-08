@@ -1,0 +1,104 @@
+BOOTSTAP->
+
+*use bootstrap 3 ---**
+**https://www.w3schools.com/bootstrap4/bootstrap_grid_system.asp
+**https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp (UTILITIES)
+**To display logo and some text underneath it -use 'Display Headings' class and <small> tag under it.
+**Instead of p use <pre>
+**USE tEXT COLORS  (https://www.w3schools.com/bootstrap4/bootstrap_colors.asp)
+*USE BACKGROUND COLIRS (https://www.w3schools.com/bootstrap4/bootstrap_colors.asp)
+**USE table class  (OR CARDS class )(https://www.w3schools.com/bootstrap4/bootstrap_tables.asp)
+*instead of using margin to round images u can use .roudned (https://www.w3schools.com/bootstrap4/bootstrap_images.asp)
+*for headers or ares that occupy entire widht if screen use jumbotron (https://www.w3schools.com/bootstrap4/bootstrap_jumbotron.asp)
+*USE BOOTSTRAP ALERTS (https://www.w3schools.com/bootstrap4/bootstrap_alerts.asp)
+*USE buttons from bottstrap(https://www.w3schools.com/bootstrap4/bootstrap_buttons.asp) (https://www.w3schools.com/bootstrap4/bootstrap_button_groups.asp)
+*TAGS/BADGES like JAVA,CSS etc..check this (https://www.w3schools.com/bootstrap4/bootstrap_badges.asp)
+*Check (Badge inside an Element) (https://www.w3schools.com/bootstrap4/bootstrap_badges.asp)
+*Check animated progress bars (https://www.w3schools.com/bootstrap4/bootstrap_progressbars.asp)
+*loading spinners (https://www.w3schools.com/bootstrap4/bootstrap_spinners.asp)
+*Pagination (https://www.w3schools.com/bootstrap4/bootstrap_pagination.asp)
+*To show items in a list like INBOX -50,SPAM 20 use ListGroups (https://www.w3schools.com/bootstrap4/bootstrap_list_groups.asp)
+*To show team details or team members use --BS4 Cards (https://www.w3schools.com/bootstrap4/bootstrap_cards.asp)
+*DROPDOWNS (https://www.w3schools.com/bootstrap4/bootstrap_dropdowns.asp)
+*EXPAND/COLLAPSE(https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp)
+*NAV  (https://www.w3schools.com/bootstrap4/bootstrap_navs.asp)
+*NAV BAR logo./search/resposive (https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)
+*USE STICKY NAV BAR TO HIGHLIST IMP ELEMENTS (https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)
+*FORMS STYLING (https://www.w3schools.com/bootstrap4/bootstrap_forms.asp)
+*USE BOOTSTRAP text,range,input rather than below default one (https://www.w3schools.com/bootstrap4/bootstrap_forms_custom.asp)
+*text,range,input,button,radio,checkbox (https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp)
+***USE INPUT GROUP as you can add image in front or end (https://www.w3schools.com/bootstrap4/bootstrap_forms_input_group.asp)
+**MODEAL /POPUP (https://www.w3schools.com/bootstrap4/bootstrap_modal.asp)
+**FOR ANIMATION of popup refer to 'Add animation' section  (https://www.w3schools.com/bootstrap4/bootstrap_modal.asp)
+**Tooltip (https://www.w3schools.com/bootstrap4/bootstrap_tooltip.asp)
+**popover (https://www.w3schools.com/bootstrap4/bootstrap_popover.asp)
+**Toast (https://www.w3schools.com/bootstrap4/bootstrap_toast.asp)
+************MUST USE************SCROLL SPY (https://www.w3schools.com/bootstrap4/bootstrap_scrollspy.asp)
+*FLEX BOX (https://www.w3schools.com/bootstrap4/bootstrap_flex.asp)
+*8to show CHEFS / TEAM use Media objects (https://www.w3schools.com/bootstrap4/bootstrap_media_objects.asp) or  BS4 Cards (https://www.w3schools.com/bootstrap4/bootstrap_cards.asp)
+GETTING STARTED ->https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp
+
+
+GRIDS->
+https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp
+Bootstrap 4 Grid System
+Bootstrap's grid system is built with flexbox and allows up to 12 columns across the page.
+
+If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:
+
+Grid Classes
+The Bootstrap 4 grid system has five classes:
+
+.col- (extra small devices - screen width less than 576px)
+.col-sm- (small devices - screen width equal to or greater than 576px)
+.col-md- (medium devices - screen width equal to or greater than 768px)
+.col-lg- (large devices - screen width equal to or greater than 992px)
+.col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+----------------------------------------------------------------------------------
+Text/Typography ->
+Bootstrap 4 Default Settings
+Bootstrap 4 uses a default font-size of 16px, and its line-height is 1.5.
+
+The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif.
+
+In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px by default)
+
++++Display Headings
+Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight), and there are four classes to choose from: 
+.display-1, 
+.display-2, 
+.display-3, 
+.display-4
+
+<small>
+In Bootstrap 4 the HTML <small> element is used to create a lighter, secondary text in any heading:
+
+<mark>
+Bootstrap 4 will style the HTML <mark> element with a yellow background color and some padding:
+
+<abbr>
+Bootstrap 4 will style the HTML <abbr> element with a dotted border bottom:
+
+<blockquote>
+Add the .blockquote class to a <blockquote> when quoting blocks of content from another source:
+
+<dl>
+Bootstrap 4 will style the HTML <dl> element in the following way:
+
+<code>
+Bootstrap 4 will style the HTML <code> element in the following way:
+---------------------
+TEXT COLORS->
+The classes for text colors are: .text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, .text-secondary, .text-white, .text-dark, .text-body (default body color/often black) and .text-light:
+
+--------------
+ALERTS -->
+Alerts are created with the .alert class, followed by one of the contextual classes .alert-success, .alert-info, .alert-warning, .alert-danger, .alert-primary, .alert-secondary, .alert-light or .alert-dark:
+-------------
+BADGES--->
+<span class="badge badge-pill badge-default">Default</span>
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-danger">Danger</span>
